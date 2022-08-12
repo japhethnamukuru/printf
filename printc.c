@@ -10,7 +10,7 @@
  * Return: characters to print
  */
 
-int print(char *format, va_list pa)
+int printc(char *format, va_list pa)
 {
 	(void)format;
 

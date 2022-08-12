@@ -20,7 +20,7 @@ int printhex(char *format, va_list pa)
 
 	if (num == 0)
 		return (_putchar('0'));
-	for (num2 = num; num != 0; count++)
+	for (num2 = num; num2 != 0; count++)
 		num2 = num / 16;
 	numhex = malloc(count);
 
